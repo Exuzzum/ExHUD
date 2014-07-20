@@ -61,6 +61,49 @@
 		"labelText"		"%Ammo%"
 		
 	}
+	
+		"AmmoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"			"3"
+		"xpos_minmode"  "9999"
+		"ypos"			"0"
+		"ypos_minmode"  "9999"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"55"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 125"
+	}
+	
+	"AmmoTeamIndicator"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"AmmoBackgroundPanel1"
+		"xpos"			"3"
+		"ypos"			"50"
+		"zpos"			"10"
+		"wide"			"150"
+		"tall"	 		"2"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible" "1" 
+		"enabled" "1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}	
+	
 	// Default font for ammo in clip and shadow = HudFontGiantBold
 	"AmmoInClipShadow"
 	{
@@ -135,7 +178,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"BikoBold56"
 		"fgcolor"		"255 255 255 255"
-		"xpos"			"-160"
+		"xpos"			"-133"
 		"ypos"			"-67"
 		"zpos"			"5"
 		"wide"			"250"
@@ -156,7 +199,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"BikoBold56"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"-158"
+		"xpos"			"-131"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
 		"ypos"			"-65"

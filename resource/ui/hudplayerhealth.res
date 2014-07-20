@@ -24,10 +24,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HPBackgroundPanel1"
-		"xpos"			"100"
-		"ypos"			"80"
+		"xpos"			"45"
+		"ypos"			"85"
 		"zpos"			"10"
-		"wide"			"50"
+		"wide"			"150"
 		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -42,8 +42,44 @@
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}	
+		"draw_corner_height" 	"0"	
+	}
+
+		"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"45"
+		"xpos_minmode"  "9999"
+		"ypos"			"35"
+		"ypos_minmode"  "9999"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"55"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 125"
+	}
+	
+	"HealthBGBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBGBuff"
+		"xpos"			"45"
+		"xpos_minmode"  "9999"
+		"ypos"			"35"
+		"ypos_minmode"  "9999"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"55"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 255 255"
+		"alpha"			"0"
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -77,10 +113,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"95"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"

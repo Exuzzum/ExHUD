@@ -18,6 +18,11 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+	
+		//Custom Colours - Used in my HUD
+		"White_custom"		"255 255 255 255"
+		"Black_custom"		"0 0 0 255"
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2539,11 +2544,93 @@ Scheme
 			}
 		}
 		
-				BikoBold56
+		BikoBold56
 		{
 			"1"
 			{
 				"name"		"Biko-Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		// This is a secondary font for the HUD
+		
+				BadaBoom12
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+				BadaBoom16
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+				BadaBoom24
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+					BadaBoom32
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+				BadaBoom36
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+					BadaBoom42
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+					BadaBoom48
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+					BadaBoom56
+		{
+			"1"
+			{
+				"name"		"BadaBoom BB"
 				"tall"		"56"
 				"antialias" "1"
 			}
@@ -4476,6 +4563,15 @@ Scheme
 		{
 		"font" "resource/fonts/Biko_Regular.otf"
 			"name" "Biko"
+		}
+		"10"
+		{
+		"font" "resource/fonts/BADABB_.TTF"
+			"name" "BadaBoom BB"9"
+		{
+		"font" "resource/fonts/Biko_Regular.otf"
+			"name" "Biko"
+		}"
 		}
 	}
 }
